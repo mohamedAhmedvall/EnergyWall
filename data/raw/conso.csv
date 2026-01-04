@@ -1,0 +1,12 @@
+Nom du Modèle / Instance,Type de Matériel,Temps de Calcul (Heures),Énergie Consommée (kWh),Émissions de CO2e (lbs/kg),Consommation d'Eau (Litres),Coût du Cloud (USD/Inferred),Empreinte Carbone Totale (Cycle de Vie/Inferred),Source
+NAS (Neural Architecture Search),8 NVIDIA P100 GPUs,274 120,656 347 kWh,626 155 lbs,Pas dans la source,942 973 $ – 3 201 722 $,1 043 591 lbs,1
+Llama 3.1 8B (Entraînement),Pas dans la source,Pas dans la source,21 000 000 kWh,9 000 tonnes CO2e,Pas dans la source,75 000 000 $,15 000 tonnes CO2e,2
+GPT-3 (Entraînement),Nvidia V100 (Inferred),Pas dans la source,1 287 000 kWh,552 tonnes CO2e,700 000 Litres,4 600 000 $,920 tonnes CO2e,"3, 4"
+BLOOM (176B),Nvidia A100 80GB,2 837,433 196 kWh,24.7 - 25 tonnes CO2e,Pas dans la source,1 500 000 $,50.5 tonnes CO2e,4
+BERTbase,64 Tesla V100 GPUs,79,1 507 kWh,1 438 lbs,Pas dans la source,3 751 $ – 12 571 $,2 396 lbs,1
+ELMo,3 NVIDIA P100 GPUs,336,275 kWh,262 lbs,Pas dans la source,433 $ – 1 472 $,436 lbs,1
+T2Tbig (Transformer),8 NVIDIA P100 GPUs,84,201 kWh,192 lbs,Pas dans la source,289 $ – 981 $,320 lbs,1
+GPT-2,32 TPUv3 chips,168,Pas dans la source,Pas dans la source,Pas dans la source,12 902 $ – 43 008 $,Pas dans la source,1
+OpenAI o3 (Requête complexe),Inferred Cloud infrastructure,Pas dans la source,1 785 kWh,684 kg CO2e,Pas dans la source,3 400 $,1 140 kg CO2e,2
+T2Tbase (Transformer),8 NVIDIA P100 GPUs,12,27 kWh,26 lbs,Pas dans la source,41 $ – 140 $,43 lbs,1
+Llama 3.1 405B (Inférence),GPU Clusters,Pas dans la source,0.055 kWh / requête,55 g CO2e / requête,Pas dans la source,0.05 $ / requête,0.09 kg CO2e / requête,5
